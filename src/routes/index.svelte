@@ -17,7 +17,7 @@
     }
   }
   h1 {
-    $v: red;
+    $v: rgb(0, 255, 13);
     background-color: $v;
   }
 </style>
