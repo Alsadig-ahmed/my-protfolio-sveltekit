@@ -2,17 +2,20 @@
   let cat = "cat";
 </script>
 
-<h1 class='text-4xl'>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<p>alsadig profoloi <a href="https://alsadig-ahmed.netlify.app">alsadig.ahmed.netlify.app</a></p>
+<h1 class="text-4xl">Welcome to my portfolio</h1>
+<a
+  href="https://alsadig-ahmed.netlify.app"
+  target="_blank"
+  rel="noopener noreferrer">the old version of my portfolio</a
+>
 
 <style lang="scss">
-    a{
-        @apply text-blue-700  text-xl;
-        &:hover{
-            @apply text-red-400 ;
-        }
+  a {
+    @apply text-blue-700  text-xl;
+    &:hover {
+      @apply text-red-400;
     }
+  }
   h1 {
     $v: red;
     background-color: $v;
